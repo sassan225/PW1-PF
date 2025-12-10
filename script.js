@@ -349,7 +349,7 @@ window.addEventListener('resize', updateAuthUI);
 
     //Api de yotube para los videos de dota 2
 
-  const API_KEY = "AIzaSyDTSu6h1nJTFRxOD63OFX2rGpanOHb73SM";
+  const API_KEY = "AIzaSyBwFqWpybhG4KGaU6KnqLpN0WktpjAO-3M";
   const query = "Dota 2";
   const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&type=video&maxResults=6&key=${API_KEY}`;
 
